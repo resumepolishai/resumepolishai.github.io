@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ResumePolish AI - Create professional, ATS-friendly resumes with AI-powered enhancement and auto-generated cover letters">
+    <title>ResumePolish AI - Enhance Your Resume with AI</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="resources/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="resources/icons/android-chrome-512x512.png">
+    <link rel="manifest" href="resources/icons/site.webmanifest">
+    <meta name="theme-color" content="#6E5AA0">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>ResumePolish AI</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" data-translate="nav.home">Home</a></li>
+                <li><a href="#features" data-translate="nav.features">Features</a></li>
+                <li><a href="#showcase" data-translate="nav.showcase">Showcase</a></li>
+                <li><a href="#about" data-translate="nav.about">About</a></li>
+                <li class="language-switcher">
+                    <select id="languageSelect" aria-label="Language selector">
+                        <option value="en">English</option>
+                        <option value="tr">Türkçe</option>
+                    </select>
+                </li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-translate="hero.badge">✨ AI-Powered Resume Enhancement</div>
+                <h1 class="hero-title" data-translate="hero.title">Polish Your Resume with AI</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">ResumePolish helps you create professional, ATS-friendly resumes with intelligent suggestions and auto-generated cover letters</p>
+                <div class="hero-buttons">
+                    <a href="#" id="appStoreLink" class="btn btn-appstore" aria-label="Download on the App Store">
+                        <img src="resources/icons/en/appstore.svg" alt="Download on the App Store" id="appStoreIcon">
+                    </a>
+                    <a href="#features" class="btn btn-secondary" data-translate="hero.learnMore">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <img src="resources/icons/app-icon.png" alt="ResumePolish AI" class="hero-app-icon" onerror="this.style.display='none';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Features</span>
+                <h2 class="section-title" data-translate="features.title">Powerful Features</h2>
+                <p class="section-subtitle" data-translate="features.subtitle">Everything you need to create a professional resume</p>
+            </div>
+            <div class="bento-grid">
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.aiEnhancement.title">AI Enhancement</h3>
+                        <p class="feature-description" data-translate="features.aiEnhancement.description">Get AI-powered resume rewriting and formatting with ATS-friendly optimization. Transform your resume into a professional, polished document.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z"/>
+                                <path d="M2 17L12 22L22 17"/>
+                                <path d="M2 12L12 17L22 12"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.resumeInput.title">Resume Input</h3>
+                        <p class="feature-description" data-translate="features.resumeInput.description">Upload your resume as PDF or paste your content. Choose from professional styles and get AI-powered enhancement suggestions.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.export.title">Export & Share</h3>
+                        <p class="feature-description" data-translate="features.export.description">Export your polished resume to PDF and share it easily with potential employers or save for future use.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.resumeHistory.title">Resume History</h3>
+                        <p class="feature-description" data-translate="features.resumeHistory.description">Keep track of all your polished resumes. Browse, search, and revisit your past resumes anytime.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.aiChat.title">AI Career Assistant</h3>
+                        <p class="feature-description" data-translate="features.aiChat.description">Chat with our AI assistant for personalized career advice, resume tips, and interview preparation guidance.</p>
+                    </div>
+                </div>
+                <div class="bento-item">
+                    <div class="bento-content">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title" data-translate="features.coverLetter.title">Cover Letter Generation</h3>
+                        <p class="feature-description" data-translate="features.coverLetter.description">Automatically generate personalized cover letters based on your resume content and job requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">App Showcase</span>
+                <h2 class="section-title" data-translate="showcase.title">See ResumePolish in Action</h2>
+                <p class="section-subtitle" data-translate="showcase.subtitle">Discover how ResumePolish transforms your resume</p>
+            </div>
+            <div class="showcase-carousel">
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-1.png" alt="Dream Input Interface" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot1.title">Resume Input</h3>
+                        <p data-translate="showcase.screenshot1.description">Upload your resume or paste content with style selection and character counter for optimal results</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-2.png" alt="Dream Details and Interpretation" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot2.title">AI-Generated Resume</h3>
+                        <p data-translate="showcase.screenshot2.description">View your professionally enhanced resume with AI-generated HTML formatting and ATS optimization</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-3.png" alt="Dream History" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot3.title">Resume History</h3>
+                        <p data-translate="showcase.screenshot3.description">Browse all your polished resumes with easy access to past versions and improvements</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-4.png" alt="Chat Conversations" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot4.title">Cover Letter</h3>
+                        <p data-translate="showcase.screenshot4.description">Get AI-generated personalized cover letters tailored to your resume content</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-5.png" alt="AI Chat Interface" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot5.title">AI Career Assistant</h3>
+                        <p data-translate="showcase.screenshot5.description">Have conversations with AI for career advice, resume tips, and interview preparation</p>
+                    </div>
+                </div>
+                <div class="showcase-item">
+                    <div class="showcase-image">
+                        <img src="resources/screenshots/screenshot-6.png" alt="Dream Visualization" class="showcase-screenshot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="showcase-placeholder" style="display: none;">
+                            <div class="showcase-content-preview">
+                                <div class="preview-header"></div>
+                                <div class="preview-body">
+                                    <div class="preview-line"></div>
+                                    <div class="preview-line short"></div>
+                                    <div class="preview-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-caption">
+                        <h3 data-translate="showcase.screenshot6.title">Export & Share</h3>
+                        <p data-translate="showcase.screenshot6.description">Export your polished resume to PDF and share it with potential employers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="about" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title" data-translate="about.title">About ResumePolish AI</h2>
+                <p class="cta-description" data-translate="about.description">ResumePolish is an innovative AI-powered application that helps you create professional, ATS-friendly resumes. Using advanced artificial intelligence, we enhance your resume content, optimize it for applicant tracking systems, and generate personalized cover letters.</p>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature1">AI-powered resume enhancement</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature2">ATS-friendly optimization</span>
+                    </div>
+                    <div class="cta-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M5 13l4 4L19 7"/>
+                        </svg>
+                        <span data-translate="about.feature3">Auto-generated cover letters</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#" id="appStoreLink2" class="btn btn-appstore-large" aria-label="Download on the App Store">
+                        <img src="resources/icons/en/appstore.svg" alt="Download on the App Store" id="appStoreIcon2">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ResumePolish AI</h3>
+                    <p data-translate="footer.description">ResumePolish AI - Your AI-powered resume enhancement tool</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="content/en/privacy-policy.html" data-translate="footer.links.privacy" id="privacyLink">Privacy Policy</a></li>
+                        <li><a href="content/en/terms-of-service.html" data-translate="footer.links.terms" id="termsLink">Terms of Service</a></li>
+                        <li><a href="content/en/kvkk.html" id="kvkkLink">KVKK</a></li>
+                        <li><a href="mailto:noreply+resumepolish@roxyapps.net" data-translate="footer.links.contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">© 2025 ResumePolish AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

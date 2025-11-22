@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "showcase": "Galeri",
+    "about": "Hakkında"
+  },
+  "hero": {
+    "badge": "✨ AI Destekli Özgeçmiş Geliştirme",
+    "title": "Özgeçmişinizi AI ile Geliştirin",
+    "subtitle": "ResumePolish, akıllı öneriler ve otomatik oluşturulan ön yazılarla profesyonel, ATS uyumlu özgeçmişler oluşturmanıza yardımcı olur",
+    "cta": "Başlayın",
+    "learnMore": "Daha Fazla Bilgi"
+  },
+  "features": {
+    "title": "Güçlü Özellikler",
+    "subtitle": "Profesyonel bir özgeçmiş oluşturmak için ihtiyacınız olan her şey",
+    "resumeInput": {
+      "title": "Özgeçmiş Girişi",
+      "description": "Özgeçmişinizi PDF olarak yükleyin veya içeriğinizi yapıştırın. Profesyonel stillerden seçim yapın ve AI destekli geliştirme önerileri alın."
+    },
+    "aiEnhancement": {
+      "title": "AI Geliştirme",
+      "description": "ATS uyumlu optimizasyon ile AI destekli özgeçmiş yeniden yazma ve formatlama alın. Özgeçmişinizi profesyonel, cilalı bir belgeye dönüştürün."
+    },
+    "resumeHistory": {
+      "title": "Özgeçmiş Geçmişi",
+      "description": "Tüm cilalı özgeçmişlerinizi takip edin. Geçmiş özgeçmişlerinizi istediğiniz zaman gözden geçirin, arayın ve tekrar ziyaret edin."
+    },
+    "coverLetter": {
+      "title": "Ön Yazı Oluşturma",
+      "description": "Özgeçmiş içeriğinize ve iş gereksinimlerine göre kişiselleştirilmiş ön yazıları otomatik olarak oluşturun."
+    },
+    "aiChat": {
+      "title": "AI Kariyer Asistanı",
+      "description": "Kişiselleştirilmiş kariyer tavsiyeleri, özgeçmiş ipuçları ve mülakat hazırlık rehberliği için AI asistanımızla sohbet edin."
+    },
+    "export": {
+      "title": "Dışa Aktar ve Paylaş",
+      "description": "Cilalı özgeçmişinizi PDF olarak dışa aktarın ve potansiyel işverenlerle kolayca paylaşın veya gelecekte kullanmak için kaydedin."
+    }
+  },
+  "showcase": {
+    "title": "ResumePolish'ı Aksiyonda Görün",
+    "subtitle": "ResumePolish'ın özgeçmişinizi nasıl dönüştürdüğünü keşfedin",
+    "screenshot1": {
+      "title": "Özgeçmiş Girişi",
+      "description": "Özgeçmişinizi yükleyin veya optimal sonuçlar için stil seçimi ve karakter sayacı ile içerik yapıştırın"
+    },
+    "screenshot2": {
+      "title": "AI Tarafından Oluşturulan Özgeçmiş",
+      "description": "AI tarafından oluşturulan HTML formatlama ve ATS optimizasyonu ile profesyonel olarak geliştirilmiş özgeçmişinizi görüntüleyin"
+    },
+    "screenshot3": {
+      "title": "Özgeçmiş Geçmişi",
+      "description": "Geçmiş sürümlere ve iyileştirmelere kolay erişimle tüm cilalı özgeçmişlerinizi gözden geçirin"
+    },
+    "screenshot4": {
+      "title": "Ön Yazı",
+      "description": "Özgeçmiş içeriğinize göre uyarlanmış AI tarafından oluşturulan kişiselleştirilmiş ön yazılar alın"
+    },
+    "screenshot5": {
+      "title": "AI Kariyer Asistanı",
+      "description": "Kariyer tavsiyeleri, özgeçmiş ipuçları ve mülakat hazırlığı için AI ile sohbet edin"
+    },
+    "screenshot6": {
+      "title": "Dışa Aktar ve Paylaş",
+      "description": "Cilalı özgeçmişinizi PDF olarak dışa aktarın ve potansiyel işverenlerle paylaşın"
+    }
+  },
+  "about": {
+    "title": "ResumePolish AI Hakkında",
+    "subtitle": "AI destekli özgeçmiş geliştirme aracınız",
+    "description": "ResumePolish, profesyonel, ATS uyumlu özgeçmişler oluşturmanıza yardımcı olan yenilikçi bir AI destekli uygulamadır. Gelişmiş yapay zeka kullanarak, özgeçmiş içeriğinizi geliştiriyor, başvuru takip sistemleri için optimize ediyor ve kişiselleştirilmiş ön yazılar oluşturuyoruz.",
+    "mission": "Misyonumuz, işverenlerin dikkatini çeken ve ATS sistemlerinden geçen özgeçmişler oluşturmanıza yardımcı olmaktır. İlk işinizi arıyorsanız veya kariyerinizi ilerletiyorsanız, ResumePolish en iyi profesyonel benliğinizi sunmanıza yardımcı olmak için burada.",
+    "feature1": "AI destekli özgeçmiş geliştirme",
+    "feature2": "ATS uyumlu optimizasyon",
+    "feature3": "Otomatik oluşturulan ön yazılar",
+    "feature4": "Profesyonel özgeçmiş formatlama"
+  },
+  "footer": {
+    "description": "ResumePolish AI - AI destekli özgeçmiş geliştirme aracınız",
+    "links": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "contact": "İletişim"
+    },
+    "copyright": "© 2025 ResumePolish AI. Tüm hakları saklıdır."
+  }
+}

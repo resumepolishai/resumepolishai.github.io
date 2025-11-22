@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "showcase": "Showcase",
+    "about": "About"
+  },
+  "hero": {
+    "badge": "✨ AI-Powered Resume Enhancement",
+    "title": "Polish Your Resume with AI",
+    "subtitle": "ResumePolish helps you create professional, ATS-friendly resumes with intelligent suggestions and auto-generated cover letters",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to create a professional resume",
+    "resumeInput": {
+      "title": "Resume Input",
+      "description": "Upload your resume as PDF or paste your content. Choose from professional styles and get AI-powered enhancement suggestions."
+    },
+    "aiEnhancement": {
+      "title": "AI Enhancement",
+      "description": "Get AI-powered resume rewriting and formatting with ATS-friendly optimization. Transform your resume into a professional, polished document."
+    },
+    "resumeHistory": {
+      "title": "Resume History",
+      "description": "Keep track of all your polished resumes. Browse, search, and revisit your past resumes anytime."
+    },
+    "coverLetter": {
+      "title": "Cover Letter Generation",
+      "description": "Automatically generate personalized cover letters based on your resume content and job requirements."
+    },
+    "aiChat": {
+      "title": "AI Career Assistant",
+      "description": "Chat with our AI assistant for personalized career advice, resume tips, and interview preparation guidance."
+    },
+    "export": {
+      "title": "Export & Share",
+      "description": "Export your polished resume to PDF and share it easily with potential employers or save for future use."
+    }
+  },
+  "showcase": {
+    "title": "See ResumePolish in Action",
+    "subtitle": "Discover how ResumePolish transforms your resume",
+    "screenshot1": {
+      "title": "Resume Input",
+      "description": "Upload your resume or paste content with style selection and character counter for optimal results"
+    },
+    "screenshot2": {
+      "title": "AI-Generated Resume",
+      "description": "View your professionally enhanced resume with AI-generated HTML formatting and ATS optimization"
+    },
+    "screenshot3": {
+      "title": "Resume History",
+      "description": "Browse all your polished resumes with easy access to past versions and improvements"
+    },
+    "screenshot4": {
+      "title": "Cover Letter",
+      "description": "Get AI-generated personalized cover letters tailored to your resume content"
+    },
+    "screenshot5": {
+      "title": "AI Career Assistant",
+      "description": "Have conversations with AI for career advice, resume tips, and interview preparation"
+    },
+    "screenshot6": {
+      "title": "Export & Share",
+      "description": "Export your polished resume to PDF and share it with potential employers"
+    }
+  },
+  "about": {
+    "title": "About ResumePolish AI",
+    "subtitle": "Your AI-powered resume enhancement tool",
+    "description": "ResumePolish is an innovative AI-powered application that helps you create professional, ATS-friendly resumes. Using advanced artificial intelligence, we enhance your resume content, optimize it for applicant tracking systems, and generate personalized cover letters.",
+    "mission": "Our mission is to help you create resumes that stand out to employers and pass through ATS systems. Whether you're looking for your first job or advancing your career, ResumePolish is here to help you present your best professional self.",
+    "feature1": "AI-powered resume enhancement",
+    "feature2": "ATS-friendly optimization",
+    "feature3": "Auto-generated cover letters",
+    "feature4": "Professional resume formatting"
+  },
+  "footer": {
+    "description": "ResumePolish AI - Your AI-powered resume enhancement tool",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    },
+    "copyright": "© 2025 ResumePolish AI. All rights reserved."
+  }
+}
